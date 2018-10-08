@@ -2523,7 +2523,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		/* postiion: relative; */
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -3277,4 +3277,10 @@ input, select, textarea {
 				padding: 0 1.25em;
 			}
 
+		}
+		#contact {
+			font-size: 0.0em;
+		}
+		#myWork {
+			display: auto;
 		}
