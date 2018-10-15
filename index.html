@@ -6,9 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/menu.css" />
     <title>Freddy Cervantes</title>
 </head>
 <body>
+    
+    <header id="header">
+        <!-- <div class="inner"> -->
+        <nav class="menu">
+                <ul class="active">
+                    <li class="current-item"><a href="index.html">Home</a></li>
+                    <li><a href="#myWork">My Work</a></li>
+                    <li><a href="#Get in touch">Get in Touch</a></li>
+                </ul>
+                <a class="toggle-nav" href="#">&#9776;</a>
+        </nav>
+    <!-- </div> -->
+    </header>
     <!-- My Picture and Short Bio -->
 	<article id="top" class="wrapper style1">
         <div class="container">
@@ -31,18 +45,15 @@
     <!-- Wrapper -->
 			<div id="wrapper">
                     <!-- Header -->
-                        <header id="header">
+                        <!-- <header id="header">
                             <div class="inner">
-    
-                                <!-- Nav -->
                                     <nav>
                                         <ul>
                                             <li><a href="#menu">Menu</a></li>
                                         </ul>
                                     </nav>
-    
                             </div>
-                        </header>
+                        </header> -->
     
                     <!-- Menu -->
                         <!-- <nav id="menu">
@@ -55,40 +66,10 @@
                                 <li><a href="elements.html">Project 4</a></li>
                             </ul>
                         </nav> -->
-                        <nav id= "menu" class="navbar navbar-light light-blue lighten-4">
 
-                            <!-- Navbar brand -->
-                            <a class="navbar-brand" href="#">Navbar</a>
-                        
-                            <!-- Collapse button -->
-                            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
-                                aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fa fa-bars fa-1x"></i></span></button>
-                        
-                            <!-- Collapsible content -->
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        
-                                <!-- Links -->
-                                <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Features</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Pricing</a>
-                                    </li>
-                                </ul>
-                                <!-- Links -->
-                        
-                            </div>
-                            <!-- Collapsible content -->
-                        
-                        </nav>
-                        <!--/.Navbar-->
                     <!-- Main -->
                         <div id="main">
-                            <div class="inner">
+                            <div class="inner" id="myWork">
                                 <header>
                                     <h1>These are some of the projects I have worked on.</h1>
                                     <p>Simply click on a project to see more details or interact with it.</p>
@@ -160,79 +141,13 @@
                                             </div>
                                         </a>
                                     </article>
-                                    <!-- <article class="style2">
-                                        <span class="image">
-                                            <img src="images/pic07.jpg" alt="" />
-                                        </span>
-                                        <a href="generic.html">
-                                            <h2>Ipsum</h2>
-                                            <div class="content">
-                                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                                            </div>
-                                        </a>
-                                    </article>
-                                    <article class="style3">
-                                        <span class="image">
-                                            <img src="images/pic08.jpg" alt="" />
-                                        </span>
-                                        <a href="generic.html">
-                                            <h2>Dolor</h2>
-                                            <div class="content">
-                                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                                            </div>
-                                        </a>
-                                    </article>
-                                    <article class="style1">
-                                        <span class="image">
-                                            <img src="images/pic09.jpg" alt="" />
-                                        </span>
-                                        <a href="generic.html">
-                                            <h2>Nullam</h2>
-                                            <div class="content">
-                                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                                            </div>
-                                        </a>
-                                    </article>
-                                    <article class="style5">
-                                        <span class="image">
-                                            <img src="images/pic10.jpg" alt="" />
-                                        </span>
-                                        <a href="generic.html">
-                                            <h2>Ultricies</h2>
-                                            <div class="content">
-                                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                                            </div>
-                                        </a>
-                                    </article>
-                                    <article class="style6">
-                                        <span class="image">
-                                            <img src="images/pic11.jpg" alt="" />
-                                        </span>
-                                        <a href="generic.html">
-                                            <h2>Dictum</h2>
-                                            <div class="content">
-                                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                                            </div>
-                                        </a>
-                                    </article>
-                                    <article class="style4">
-                                        <span class="image">
-                                            <img src="images/pic12.jpg" alt="" />
-                                        </span>
-                                        <a href="generic.html">
-                                            <h2>Pretium</h2>
-                                            <div class="content">
-                                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                                            </div>
-                                        </a>
-                                    </article> -->
                                 </section>
                             </div>
                         </div>
     
                     <!-- Footer -->
                         <footer id="footer">
-                            <div class="inner">
+                            <div id="Get in touch" class="inner">
                                 <section>
                                     <h2>Get in touch</h2>
                                     <form method="post" action="#">
